@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-  const data = await (await fetch("/data/overview.json")).json()
+  const data = await (await fetch("data/overview.json")).json()
 
   const tooltip = document.createElement("div");
   tooltip.className = "tooltip";
