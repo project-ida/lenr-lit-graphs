@@ -21,7 +21,7 @@ jobs:
           node-version: '18'
 
       - name: Generate standalone HTML
-        run: node scripts/make-paths-absolute.js
+        run: node scripts/inline-assets.js
 
       - name: Commit and push output
         run: |
