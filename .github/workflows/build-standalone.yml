@@ -3,7 +3,7 @@ name: Build Standalone HTML
 on:
   push:
     branches:
-      - main 
+      - master 
 
 jobs:
   build:
