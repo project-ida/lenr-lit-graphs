@@ -12,7 +12,7 @@ const [owner, repoName] = repo.split('/');
 const baseURL = `https://${owner}.github.io/${repoName}/`;
 
 const inputHtmlPath = 'index.html';
-const outputHtmlPath = path.join('dist', 'standalone.html');
+const outputHtmlPath = path.join('dist', 'index.html');
 
 // Read the input HTML
 let html = fs.readFileSync(inputHtmlPath, 'utf8');
